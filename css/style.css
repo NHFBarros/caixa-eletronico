@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: #4d44b4;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+#texto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 18px;
+}
+
+#bg {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    padding: 5px;
+    width: 69.3vh;
+    display: absolute;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+#saldo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 30px 0px 15px 0px;
+}
+
+input {
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    width: 95%;
+}
+
+.botao{
+    display: inline-block;
+    padding: 0px 0px 0px 15px;
+}
+
+.btn, .btn1 {
+    color: white;
+    background-color: #4d44b4;
+    border: 0px;
+    padding: 7px 15px 7px 15px;
+    font-weight: normal;
+    border-radius: 0px;
+}
+
+#botoes {
+    text-align: center;
+    margin: 7px 0px 15px 0px;
+}
+
+#historico {
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-items: center;
+    padding: 25px 20px 15px 20px;
+    width: 87%;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.deposito{
+    font-style: italic;
+    color: green;
+}
+
+.saque {
+    font-style: italic;
+    color: red;
+}
